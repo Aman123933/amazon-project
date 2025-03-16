@@ -1,13 +1,3 @@
-#######################################################################
-#                                                                     #
-#   * I used Claude 3.5 Sonnet to help fix bugs I wrote in my code.   #
-#   * To learn more about Werkzeug, I watched tutorials on Flask      #
-#     and Werkzeug.                                                   #
-#   * I also used the Python SQLite3 library instead of the           #
-#     CS50 library, which I learned by watching some tutorials.       #
-#                                                                     #
-#######################################################################
-
 
 from flask import Flask, render_template, request, redirect, url_for, flash, session, jsonify
 from werkzeug.security import generate_password_hash, check_password_hash

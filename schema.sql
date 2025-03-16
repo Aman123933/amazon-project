@@ -1,10 +1,3 @@
--------------------------------------------------------
---                                                   --
---   Use this schema to re-add the tables (incase    --
---   the database gets deleted).                     --
---                                                   --
--------------------------------------------------------
-
 
 -- Users table
 CREATE TABLE IF NOT EXISTS users (
